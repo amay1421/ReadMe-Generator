@@ -7,11 +7,6 @@ const generateMarkdown = require("./utils/generateMarkdown")
 const questions = [
     {
         type: "input",
-        name: "name",
-        message: "What is your name?",
-    },
-    {
-        type: "input",
         name: "repository",
         message: "What is your name of your GitHub repository?",
     },
@@ -23,7 +18,7 @@ const questions = [
     {
         type: "input",
         name: "usage",
-        message: "What is the project usage for?",
+        message: "Provide instructions and examples for use.",
     
     },
     {
@@ -45,7 +40,7 @@ const questions = [
     {
         type: "input",
         name: "contribution",
-        message: "How can other developers contribute to your project?",
+        message: "Please list any collaborators, if any, along with any third-party assets that require attribution.",
     },
     {
         type: "list",

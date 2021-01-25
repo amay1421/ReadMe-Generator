@@ -10,12 +10,12 @@ function renderLicenseBadge(license) {
   switch (license) {
     case "GNU AGPLv3": selectedBadge =  '[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)'; break;
     case "GNU GPLv3": selectedBadge = `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`; break;
-    case "GNU LGPLv3":
-    case "Mozilla Public License 2.0":
-    case "Apache License 2.0":
-    case "MIT License":
-    case "Boost Software License 1.0":
-    case "The Unlicense":
+    case "GNU LGPLv3": selectedBadge = `[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)`; break;
+    case "Mozilla Public License 2.0": selectedBadge = `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`; break;
+    case "Apache License 2.0": selectedBadge = `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`; break;
+    case "MIT License": selectedBadge = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`; break;
+    case "Boost Software License 1.0": selectedBadge = `[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)`; break;
+    case "The Unlicense": selectedBadge = `[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)`; break;
       }
 
   return selectedBadge;

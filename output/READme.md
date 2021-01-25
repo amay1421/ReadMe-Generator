@@ -10,21 +10,21 @@
   
   ## Usage
   
-  sks
+  sksk
  
  ## Credits
  
- ssk
+ sks
 
  ## License
 
- GNU AGPLv3
+ Mozilla Public License 2.0
 
  ## Badges 
- [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+ [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
  ## Tests
  
 
  ## Questions
- sksk
+ 
