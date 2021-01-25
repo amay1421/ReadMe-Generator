@@ -2,13 +2,11 @@
 const inquirer = require('inquirer')
 const fs = require('fs');
 
-
-
 // TODO: Create an array of questions for user input
 const questions = [
     {
         type: "input",
-        name: "userName",
+        name: "name",
         message: "What is your name?",
     },
     {
@@ -23,7 +21,7 @@ const questions = [
     },
     {
         type: "input",
-        technology: "technoligy",
+        technology: "technology",
         message: "What technology was used?",
     
     },
@@ -49,20 +47,34 @@ const questions = [
         message: "How can other developers contribute to your project?",
     },
     {
-        type: "list",
-        license: "licensing",
-        message: "What licensing would you like for your project?",
-        choices: []
+        type: "input",
+        license: "license",
+        message: "What license would you like for your project?",
     },
     {
         type: "input",
-        questions: "questions",
+        licenseURL: "licenseURL",
+        message: "What is the license url?",
+    },
+    {
+        type: "input",
+        inquiries: "inquiries",
         message: "What is your email address for any future inquiries?",
     
     },
-    
    
 ];
+const name = questions.name;
+const repository = questions.repository;
+const title = questions.title;
+const technology = questions.technology;
+const usage = questions.usage;
+const description = questions.description;
+const installation = questions.installation;
+const contribution = questions.contributors;
+const license = questions.license;
+const licenseURL = questions.licenseURL;
+const inquiries = questions.inquiries;
 
 inquirer.prompt(questions).then((answer) => {
     console.log(answer)
@@ -71,11 +83,11 @@ inquirer.prompt(questions).then((answer) => {
 })
 
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// // TODO: Create a function to write README file
+// function writeToFile(fileName, data) {}
 
-// TODO: Create a function to initialize app
-function init() {}
+// // TODO: Create a function to initialize app
+// function init() {}
 
-// Function call to initialize app
-init();
+// // Function call to initialize app
+// init();
