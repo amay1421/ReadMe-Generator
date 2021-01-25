@@ -9,54 +9,54 @@ const questions = [
     {
         type: "input",
         name: "userName",
-        message: "What is your name?"
+        message: "What is your name?",
     },
     {
         type: "input",
-        name: "repository",
-        message: "What is your name of your GitHub repository?"
+        repository: "repository",
+        message: "What is your name of your GitHub repository?",
     },
     {
         type: "input",
-        name: "repoTitle",
-        message: "What is the title of your project?"
+        title: "repoTitle",
+        message: "What is the title of your project?",
     },
     {
         type: "input",
-        description: "questions",
+        technology: "technoligy",
         message: "What technology was used?",
     
     },
     {
         type: "input",
-        description: "usage",
+        usage: "usage",
         message: "What is the project usage for?",
     
     },
     {
         type: "input",
         description: "descrption",
-        message: "How would you describe this project?"
+        message: "How would you describe this project?",
     },
     {
         type: "input",
-        description: "installation",
-        message: "What steps are required for installation?"
+        installation: "installation",
+        message: "What steps are required for installation?",
     },
     {
         type: "input",
-        description: "contribution",
-        message: "How can other developers contribute to your project?"
+        contributors: "contribution",
+        message: "How can other developers contribute to your project?",
     },
     {
         type: "list",
-        description: "licensing",
+        license: "licensing",
         message: "What licensing would you like for your project?",
         choices: []
     },
     {
         type: "input",
-        description: "questions",
+        questions: "questions",
         message: "What is your email address for any future inquiries?",
     
     },
