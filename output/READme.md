@@ -1,30 +1,30 @@
-# sksk
+# Test Title
     
   ## Description
   
-  sks
+  Insert project description here, along with the deployed and repo links.
   
   ## Installation
   
-  sks
+  Insert steps for proper installation of the deployed application.
   
   ## Usage
   
-  sksk
+  Insert example instructions here.
  
  ## Credits
  
- sks
+ John Smith
 
  ## License
 
- Mozilla Public License 2.0
+ GNU LGPLv3
 
  ## Badges 
- [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+ [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
  ## Tests
- 
+ Insert test examples
 
  ## Questions
- 
+ If you have any questions or would like to contact me about any issues please email: amay1421@yahoo.com

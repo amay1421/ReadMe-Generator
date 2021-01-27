@@ -60,7 +60,7 @@ function generateMarkdown(data) {
  ${data.test}
 
  ## Questions
- ${data.inquiries}`;
+ If you have any questions or would like to contact me about any issues please email: ${data.inquiries}`;
 }
 
 module.exports = generateMarkdown;
